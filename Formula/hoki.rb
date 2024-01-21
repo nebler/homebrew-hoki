@@ -4,9 +4,9 @@
 class Hoki < Formula
     desc "CLI Tool to delete old node_modules"
     homepage "https://github.com/nebler"
-    url "https://github.com/nebler/hoki/releases/download/v0.1.0/hoki-mac.tar.gz"
-    sha256 "5672a3a415a85c2644cae1dd3dc61983b4f3ebe370a04275e14ee9fac045409a"
-    version "0.1.0"
+    url "https://github.com/nebler/hoki/releases/download/v0.2.0/hoki-mac.tar.gz"
+    sha256 "e3e7bcb39c0b0f05262c5de25774378b2488d1fd11948ee513de91ef2f552c1c"
+    version "0.2.0"
   
     def install
       bin.install "hoki"
